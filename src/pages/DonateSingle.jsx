@@ -1,15 +1,15 @@
 import React from "react";
 import Header from "../components/Header";
 
-const Home = () => {
+const DonateSingle = () => {
   return (
     <div>
       <Header />
       <div>
-        <h2>Home</h2>
+        <h2>Donate Single</h2>
       </div>
     </div>
   );
 };
 
-export default Home;
+export default DonateSingle;
