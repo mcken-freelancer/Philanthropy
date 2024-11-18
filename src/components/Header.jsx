@@ -20,7 +20,7 @@ const Header = () => {
           />
         </Link>
 
-        <nav className="space-x-5 text-gray-700">
+        <nav className="space-x-5 text-gray-600">
           <Link to={`/`}>Home</Link>
           <Link to={`/about`}>About</Link>
           <Link to={`/`}>Pages</Link>
