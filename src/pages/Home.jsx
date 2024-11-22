@@ -367,6 +367,13 @@ const Home = () => {
           </div>
         </div>
       </div>
+      <div className="positionrelative">
+        <div className="container">
+          <div className="ctacard">
+            <img className="ctaleft imgbullet mr-0" src="/design.svg" alt="" />
+          </div>
+        </div>
+      </div>
     </>
   );
 };
