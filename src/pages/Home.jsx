@@ -31,7 +31,7 @@ const Home = () => {
           <img className="img" src="/heroimage.jpeg" alt="some beneficiaries" />
         </div>
       </div>
-      <div className="pt-36 bg-neutral-200">
+      <div className="pt-36 bg-orange-50">
         <div className="container">
           <div className="mb-16">
             <div className="gridcolumn">
@@ -64,7 +64,7 @@ const Home = () => {
           <div className="divider"></div>
         </div>
       </div>
-      <div className="bg-neutral-200 py-48">
+      <div className="bg-orange-50 py-48">
         <div className="container">
           <div className="gridcolumn2">
             <div>
@@ -103,7 +103,7 @@ const Home = () => {
                   <a className="buttonprimary" href="/donate">
                     Donate now
                   </a>
-                  <a className="buttonsecondary" href="/about">
+                  <a className="buttonsecondary bg-neutral-100" href="/about">
                     About us
                   </a>
                 </div>
@@ -231,7 +231,10 @@ const Home = () => {
                 We have helped over 200 vulnerable communities worldwide
               </h2>
               <div className="justify-center buttonrow">
-                <a className="bg-neutral-800 buttonprimary" href="/donate">
+                <a
+                  className="bg-neutral-800 buttonprimary text-neutral-100"
+                  href="/donate"
+                >
                   Donate now
                 </a>
                 <a className="bg-neutral-100 buttonsecondary" href="/about">
@@ -371,6 +374,156 @@ const Home = () => {
         <div className="container">
           <div className="ctacard">
             <img className="ctaleft imgbullet mr-0" src="/design.svg" alt="" />
+            <img
+              className="ctaright imgbullet mr-0"
+              src="/design1.svg"
+              alt=""
+            />
+            <div className="ctacolumn">
+              <h2 className="h2">Join us and let's make a better, world</h2>
+              <div className="buttonrow justify-end">
+                <a
+                  className="buttonprimary bg-neutral-800 text-neutral-100 "
+                  href="/donate"
+                >
+                  Donate now
+                </a>
+                <a className="buttonsecondary bg-neutral-100" href="/about">
+                  About our charity
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="top-1/2 absolute bg-neutral-200"></div>
+      </div>
+      <div className="section bg-orange-50">
+        <div className="container">
+          <div className="gridcolumn5">
+            <div>
+              <div className="continner">
+                <img
+                  className="imgbullet mr-0 rounded-xl"
+                  src="/twogirls.jpeg"
+                  alt=""
+                />
+              </div>
+              <div className="testimonialcard">
+                <p className="mb-6">
+                  "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Praesentium ipsa, asperiores rerum delectus adipisci saepe
+                  quisquam."
+                </p>
+                <div className="font-bold leading-4 text-neutral-800">
+                  Amara Omai
+                </div>
+                <div className="leading-4 mt-4 text-neutral-500">
+                  Citizen of South Africa
+                </div>
+              </div>
+            </div>
+            <div className="justify-self-end">
+              <div className="max-w-md">
+                <div className="subtitle">Testimonials</div>
+                <h2 className="h2 mb-6">See how we are making a difference</h2>
+              </div>
+              <div className="max-w-lg">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Aspernatur animi amet tempora debitis quia nostrum. Doloremque
+                  neque facere in.
+                </p>
+                <div className="mb-4">
+                  <div className="flex items-center">
+                    <img className="imgbullet" src="/correct.svg" alt="" />
+                    <div className="text300">
+                      Lorem ipsum dolor sit amet consectetur.
+                    </div>
+                  </div>
+                </div>
+                <div className="mb-4">
+                  <div className="flex items-center">
+                    <img className="imgbullet" src="/correct.svg" alt="" />
+                    <div className="text300">
+                      Lorem ipsum dolor sit amet consectetur.
+                    </div>
+                  </div>
+                </div>
+                <div className="mb-12">
+                  <div className="flex items-center">
+                    <img className="imgbullet" src="/correct.svg" alt="" />
+                    <div className="text300">
+                      Lorem ipsum dolor sit amet consectetur.
+                    </div>
+                  </div>
+                </div>
+                <a className="buttonprimary" href="/donate">
+                  Donate now
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="py-48">
+        <div className="container">
+          <div className="text-center mb-12">
+            <div className="subtitle">News & Resources</div>
+            <h2 className="h2 mb-4">Read our latest news</h2>
+          </div>
+          <div className="mb-16">
+            <div className="gridcolumn3">
+              <div>
+                <a className="cardwrapper" href="/blog">
+                  <div className="overflow-hidden rounded-xl">
+                    <img
+                      className="imgbullet mr-0 w-full"
+                      src="/carrot.jpeg"
+                      alt=""
+                    />
+                  </div>
+                  <div className="cardblog">
+                    <div className="items-center flex mb-4">
+                      <div className="badgesecondary">Articles</div>
+                      <div className="leading-4">Feb 11, 2022</div>
+                    </div>
+                    <h3 className="h3 mb-8">
+                      What to donate to a food bank and what to avoid?
+                    </h3>
+                    <div className="font-bold inline-block text-neutral-800">
+                      <div className="leading-4 inline-block">Read more</div>
+                      <div className="ml-1 inline-block font-sans"></div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <div>
+                  <a className="cardwrapper" href="/blog">
+                    <div className="overflow-hidden rounded-xl">
+                      <img
+                        className="imgbullet mr-0 w-full"
+                        src="/hands.jpeg"
+                        alt=""
+                      />
+                    </div>
+                    <div className="cardblog">
+                      <div className="items-center flex mb-4">
+                        <div className="badgesecondary">Resources</div>
+                        <div className="leading-4">Feb 11, 2022</div>
+                      </div>
+                      <h3 className="h3 mb-8">
+                        13 ways to give to charity without breaking your budget
+                      </h3>
+                      <div className="font-bold inline-block text-neutral-800">
+                        <div className=" leading-4 inline-block">Read more</div>
+                        <div className="font-sans inline-block ml-1"></div>
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

@@ -3,12 +3,10 @@ import Header from "../components/Header";
 
 const About = () => {
   return (
-    <div>
+    <>
       <Header />
-      <div className="about">
-        <h2>About</h2>
-      </div>
-    </div>
+      <h2>I am "About" to start :)....get it:)</h2>
+    </>
   );
 };
 
