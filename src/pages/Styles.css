@@ -196,6 +196,24 @@
   display: grid;
 }
 
+.gridcolumn6 {
+  grid-template-columns: 1.4fr 1fr;
+  column-gap: 28px;
+  row-gap: 28px;
+  grid-template-rows: auto;
+  grid-auto-columns: 1fr;
+  align-items: center;
+  display: grid;
+}
+
+.h1 {
+  color: #090909;
+  font-family: "Bespokeserif", sans-serif;
+  font-size: 54px;
+  font-weight: 700;
+  line-height: 1.333em;
+}
+
 .h2 {
   color: #090909;
   margin-bottom: 16px;
@@ -266,6 +284,13 @@
   vertical-align: middle;
 }
 
+.img1 {
+  width: 81%;
+  max-width: 990px;
+  border-radius: 12px;
+  vertical-align: middle;
+}
+
 .img2 {
   vertical-align: middle;
   width: 100%;
@@ -279,6 +304,16 @@
 .imgbullet {
   margin-right: 16px;
   max-width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.imgoverlap {
+  width: 49%;
+  max-width: 594px;
+  margin-top: -37%;
+  margin-left: auto;
+  border-radius: 12px;
   display: inline-block;
   vertical-align: middle;
 }
